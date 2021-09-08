@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list version="1.0">
-    <theme id="action" name="Lil' Peepz" thumb="" cc_theme_id="action" />
-	<theme id="custom" name="Comedy World" thumb="" cc_theme_id="custom" />
-	<theme id="retro" name="Cartoon Classics" thumb="ann-stand.swf" cc_theme_id="retro" />
-	<theme id="chibi" name="Chibi Peepz" thumb="" cc_theme_id="chibi" />
+    <theme id="retro" name="Cartoon Classics" thumb="" cc_theme_id="retro" />
+	<theme id="startrek" name="Star Trek Quogs" thumb="" cc_theme_id="custom" />
+	<theme id="underdog" name="Cartoon Classics" thumb="ann-stand.swf" cc_theme_id="underdog" />
+	<theme id="sf" name="Street Fighter" thumb="" cc_theme_id="sf" />
+	<theme id="monstermsh" name="Monsters Mayhem" thumb="" cc_theme_id="monstermsh" />
+	<theme id="bunny" name="It's Happy Bunny" cc_theme_id="bunny" />
+	<theme id="willie" name="Willie Nelson" cc_theme_id="willie" />
 	<word></word>
 	<whiteword />
 	<excludeAssetIDs />
