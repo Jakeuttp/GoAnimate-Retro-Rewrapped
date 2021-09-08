@@ -1,6 +1,6 @@
 :: Important stuff
 @echo off && cls
-title TypeScript Wrapper
+title GoAnimate Retro Rewrapped
 
 ::::::::::::::::::::
 :: Initialization ::
@@ -10,13 +10,13 @@ title TypeScript Wrapper
 TASKKILL /IM node.exe /F 2>nul
 cls
 
-::::::::::::::::::::::::::::::
-:: Start TypeScript Wrapper ::
-::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::
+:: Start GoAnimate Retro Rewrapped ::
+:::::::::::::::::::::::::::::::::::::
 
 :: Check for installation
 if exist notinstalled (
-	echo TypeScript Wrapper is not installed! Installing...
+	echo GoAnimate Retro Rewrapped is not installed! Installing...
 	call npm install
 	ren "notinstalled" "installed"
 	cls
@@ -27,6 +27,6 @@ if exist notinstalled (
 
 :: Run npm start
 :start
-echo TypeScript Wrapper is now starting...
+echo GoAnimate Retro Rewrapped is now starting...
 npm start
-echo TypeScript Wrapper has been started. Please navigate to http://localhost on your browser.
+echo GoAnimate Retro Rewrapped has been started. Please navigate to http://localhost on your browser.
