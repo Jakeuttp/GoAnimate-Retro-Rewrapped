@@ -1,5 +1,5 @@
-# GoAnimate Wrapper
-This is an API wrapper for GoAnimate's Legacy Video Maker, which had been retired on *19th December 2019, 03:10 UTC*.	Unlike other services that attempt to sole the same problem, this project allows the LVM to access data peristence and is very portable.  Please keep in mind that not all features designed to run on the original API work properly.
+# GoAnimate Retro Rewrapped
+This LVM Project is ment to revive GoAnimate 2009 In TypeScript.
 ## GoAnimate For Schools Remastered Leaked Language
 If you are in this discord server called GoAnimate For Schools Remastered and looked at the message witch is located in this link https://discord.com/channels/719982463799263363/766054228904509490/849042900787789844, then you already know that GoAnimate For Schools Remastered Version 1.2 is being made using Typescript witch excatly this lvm project is made out of. some fixed stuff will include:
 
