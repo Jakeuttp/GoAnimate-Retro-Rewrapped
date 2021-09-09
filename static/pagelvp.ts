@@ -288,7 +288,7 @@ GA_googleFetchAds();
 				</li>
 				<li class="divider"></li>
 				<li class="dropdown">
-					<a class="dropdown-toggle" href="#video-extra" data-toggle="dropdown">Explore <span class="caret"></span></a>
+					<a class="dropdown-toggle" href="https://josephcrosmanplays532.github.io" data-toggle="dropdown">Explore <span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li><a href="#video-extra">Videos</a></li>
 						<li><a href="https://josephcrosmanplays532.github.io/forums">Forums</a></li>
