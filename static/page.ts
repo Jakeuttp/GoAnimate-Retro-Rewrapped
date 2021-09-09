@@ -40,10 +40,10 @@ module.exports = function (req, res, url) {
 					: `m-${fUtil[query.Autosave ? "getNextFileId" : "fillNextFileId"]("movie-", ".xml")}`;
 			title = "The Video Maker From GoAnimate - Make a Video For YouTube!";
 			attrs = {
-				data: process.env.OLDSWF_URL + "/go_full.swf",
+				data: process.env.SWF_URL + "/go_full.swf",
 				type: "application/x-shockwave-flash",
 				id: "Studio",
-                                swf: process.env.OLDSWF_URL + "/go_full.swf",
+                                swf: process.env.SWF_URL + "/go_full.swf",
                                 width: "100%",
                                 height: "100%",
 
@@ -62,9 +62,9 @@ module.exports = function (req, res, url) {
 					asId: "",
 					originalId: "",
 					apiserver: "/",
-					storePath: process.env.OLDSTORE_URL + "/<store>",
-					clientThemePath: process.env.OLDCLIENT_URL + "/<client_theme>",
-					animationPath: process.env.OLDSWF_URL + "/",
+					storePath: process.env.STORE_URL + "/<store>",
+					clientThemePath: process.env.CLIENT_URL + "/<client_theme>",
+					animationPath: process.env.SWF_URL + "/",
 					userId: "0cf4CMw1ZNCk",
 					username: "bakeryb40488",
 					uemail: "bakeryb40488@gmail.com",
@@ -73,7 +73,7 @@ module.exports = function (req, res, url) {
 					ve: false,
 					isEmbed: 0,
 					nextUrl: "/videos/?movieId=<movieId>",
-					bgload: process.env.OLDSWF_URL + "/go_full.swf",
+					bgload: process.env.SWF_URL + "/go_full.swf",
 					lid: "1",
 					ctc: "go",
 					themeColor: "silver",
