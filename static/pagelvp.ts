@@ -153,41 +153,41 @@ module.exports = function (req, res, url) {
 <link rel="alternate" href="https://josephcrosmanplays532.github.io/GoAnimate/MostWatched" type="application/rss+xml" title="GoAnimate - Most Watched"/>
 
 
-<link href="https://vyondrewrapped.herokuapp.com/html/font.css" rel="stylesheet" type="text/css"/>
-<link href="https://vyondrewrapped.herokuapp.com/html/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-<link href="https://vyondrewrapped.herokuapp.com/html/css/bootstrap/bootstrap-modal.css" rel="stylesheet" type="text/css"/>
-<link href="https://vyondrewrapped.herokuapp.com/html/css/bootstrap/bootstrapSwitch.css" rel="stylesheet" type="text/css"/>
-<link href="https://vyondrewrapped.herokuapp.com/html/css/style.css" rel="stylesheet" type="text/css"/>
-<link href="https://vyondrewrapped.herokuapp.com/html/css/site.css" rel="stylesheet" type="text/css"/>
-<link href="https://vyondrewrapped.herokuapp.com/html/css/overlay.css" rel="stylesheet" type="text/css"/>
+<link href="https://josephanimate2021.w3spaces.com/font.css" rel="stylesheet" type="text/css"/>
+<link href="https://josephanimate2021.w3spaces.com/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="https://josephanimate2021.w3spaces.com/bootstrap-modal.css" rel="stylesheet" type="text/css"/>
+<link href="https://josephanimate2021.w3spaces.com/bootstrapSwitch.css" rel="stylesheet" type="text/css"/>
+<link href="https://josephanimate2021.w3spaces.com/style.css" rel="stylesheet" type="text/css"/>
+<link href="https://josephanimate2021.w3spaces.com/site.css" rel="stylesheet" type="text/css"/>
+<link href="https://josephanimate2021.w3spaces.com/overlay.css" rel="stylesheet" type="text/css"/>
 
-<link href="https://vyondrewrapped.herokuapp.com/html/css/watermark.css" rel="stylesheet" type="text/css"/>
-<link href="https://vyondrewrapped.herokuapp.com/html/css/video.css" rel="stylesheet" type="text/css"/>
-<link href="https://vyondrewrapped.herokuapp.com/html/css/videos.css" rel="stylesheet" type="text/css"/>
-<link href="https://vyondrewrapped.herokuapp.com/html/css/video_export.css" rel="stylesheet" type="text/css"/>
-<link href="https://vyondrewrapped.herokuapp.com/html/css/movie_license.css" rel="stylesheet" type="text/css"/>
+<link href="https://josephanimate2021.w3spaces.com/watermark.css" rel="stylesheet" type="text/css"/>
+<link href="https://josephanimate2021.w3spaces.com/video.css" rel="stylesheet" type="text/css"/>
+<link href="https://josephanimate2021.w3spaces.com/videos.css" rel="stylesheet" type="text/css"/>
+<link href="https://josephanimate2021.w3spaces.com/video_export.css" rel="stylesheet" type="text/css"/>
+<link href="https://josephanimate2021.w3spaces.com/movie_license.css" rel="stylesheet" type="text/css"/>
 
 <script type="text/javascript">
 var srv_tz_os = -4, view_name = "go", user_cookie_name = "u_info";
 </script>
 
-<script src="https://vyondrewrapped.herokuapp.com/html/js/jquery/jquery-1.8.3.min.js"></script>
+<script src="https://josephanimate2021.w3spaces.com/jquery-1.8.3.min.js"></script>
 
-<script src="https://vyondrewrapped.herokuapp.com/html/js/bootstrap/bootstrap.min.js"></script>
-<script src="https://vyondrewrapped.herokuapp.com/html/js/bootstrap/bootstrap-modalmanager.js"></script>
-<script src="https://vyondrewrapped.herokuapp.com/html/js/bootstrap/bootstrap-modal.js"></script>
-<script src="https://vyondrewrapped.herokuapp.com/html/js/bootstrap/bootstrapSwitch.js"></script>
+<script src="https://josephanimate2021.w3spaces.com/bootstrap.min.js"></script>
+<script src="https://josephanimate2021.w3spaces.com/bootstrap-modalmanager.js"></script>
+<script src="https://josephanimate2021.w3spaces.com/bootstrap-modal.js"></script>
+<script src="https://josephanimate2021.w3spaces.com/bootstrapSwitch.js"></script>
 
 
-<script src="https://vyondrewrapped.herokuapp.com/html/js/go2.js"></script>
-<script src="https://vyondrewrapped.herokuapp.com/html/js/jquery/jquery.swfobject.min.js"></script>
-<script src="https://vyondrewrapped.herokuapp.com/html/js/jquery/jquery.blockUI.js"></script>
-<script src="https://vyondrewrapped.herokuapp.com/html/js/jquery/jquery.scrollTo.min.js"></script>
-<script src="https://vyondrewrapped.herokuapp.com/html/js/app.js"></script>
+<script src="https://josephanimate2021.w3spaces.com/go2.js"></script>
+<script src="https://josephanimate2021.w3spaces.com/jquery.swfobject.min.js"></script>
+<script src="https://josephanimate2021.w3spaces.com/jquery.blockUI.js"></script>
+<script src="https://josephanimate2021.w3spaces.com/jquery.scrollTo.min.js"></script>
+<script src="https://josephanimate2021.w3spaces.com/app.js"></script>
 
-<script src="https://vyondrewrapped.herokuapp.com/html/js/cookie.js"></script>
-<script src="https://vyondrewrapped.herokuapp.com/html/js/Gettext.js"></script>
-<script type="text/javascript" src="https://vyondrewrapped.herokuapp.com/html/po/goserver_js-en_US.json"></script>
+<script src="https://josephanimate2021.w3spaces.com/cookie.js"></script>
+<script src="https://josephanimate2021.w3spaces.com/Gettext.js"></script>
+<script type="text/javascript" src="https://josephanimate2021.w3spaces.com/goserver_js-en_US.json"></script>
 <script type="text/javascript">
 var I18N_LANG = 'en_US';
 var GT = new Gettext({'locale_data': json_locale_data});
@@ -594,9 +594,9 @@ var MOVIE_USERNAME = 'Dina Roach';
 
 </script>
 
-<script src="https://vyondrewrapped.herokuapp.com/html/js/users.js"></script>
-<script src="https://vyondrewrapped.herokuapp.com/html/js/video.js"></script>
-<script src="https://vyondrewrapped.herokuapp.com/html/js/videos.js"></script>
+<script src="https://josephanimate2021.w3spaces.com/users.js"></script>
+<script src="https://josephanimate2021.w3spaces.com/video.js"></script>
+<script src="https://josephanimate2021.w3spaces.com/videos.js"></script>
 
 
 
