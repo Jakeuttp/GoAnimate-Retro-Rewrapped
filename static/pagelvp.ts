@@ -500,7 +500,6 @@ jQuery('#playerdiv').flash({
 				<h2>Your Videos</h2>
 
 				<ul class="video-list">
-					<li>
 						<table>
 		<thead>
 			<tr>
@@ -517,7 +516,6 @@ jQuery('#playerdiv').flash({
 			</tr>
 		</tfoot>
 	</table>
-					</li>
 				</ul>
 			</div>
 			
