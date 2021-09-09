@@ -135,7 +135,7 @@ module.exports = function (req, res, url) {
 
 <link rel="stylesheet" href="https://josephcrosmanplays532.github.io/static/642cd772aad8e952/school/css/common_combined.css.gz.css">
 
-<link rel="stylesheet" href="https://josephcrosmanplays532.github.io/static/642cd772aad8e952/school/css/studio.css.gz.css">
+<link rel="stylesheet" href="/html/css/studio.css">
 
 <script>
 var srv_tz_os = -4, view_name = "school", user_cookie_name = "u_info_school";
@@ -196,8 +196,8 @@ if (self !== top) {
             <h2>Preview Video</h2>
             <div id="playerdiv"></div>
             <div class="buttons clearfix">
-                <button class="preview-button edit" onclick="switchBackToStudio();">Back to editing</button>
-                <button class="preview-button save" onclick="publishStudio();">Save Now</button>            </div>
+                <button class="preview-button save" onclick="switchBackToStudio();">< Back to editing</button>
+                <button class="preview-button save" onclick="publishStudio();">Save Now ></button>            </div>
 
             <a class="close_btn" href="#" onclick="switchBackToStudio(); return false;">×</a>
         </div>
