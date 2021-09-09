@@ -437,6 +437,9 @@ jQuery('#playerdiv').flash({
 				<div class="tab-pane active inside" id="video-comments">
 
 					<textarea rows="4" cols="50" name="comment" form="comment" placeholder="Your Comment"></textarea>
+					<form action="/ajax/saveComment" id="comment">
+                                            <input type="submit">
+                                        </form>
 
 					<div class="comments" id="all-comments">
 
@@ -629,10 +632,6 @@ var MOVIE_USERNAME = 'Dina Roach';
 	 }
        };
        </script>
-
-<form action="/ajax/saveComment" id="comment">
-  <input type="submit">
-</form>
 <!-- FOOTER -->
 
 <div class="site-footer">
