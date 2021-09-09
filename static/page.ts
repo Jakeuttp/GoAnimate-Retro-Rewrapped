@@ -34,14 +34,10 @@ module.exports = function (req, res, url) {
 	var attrs, params, title;
 	switch (url.pathname) {
                 case "/studio": {
-			let moviesave =
+			let presave =
 				query.movieId && query.movieId.startsWith("m")
 					? query.movieId
 					: `m-${fUtil[query.Autosave ? "getNextFileId" : "fillNextFileId"]("movie-", ".xml")}`;
-			let startersave =
-				query.starterId && query.starterId.startsWith("s")
-					? query.starterId
-					: `s-${fUtil[query.noAutosave ? "getNextFileId" : "fillNextFileId"]("starter-", ".xml")}`;
 			title = "The Video Maker From GoAnimate - Make a Video For YouTube!";
 			attrs = {
 				data: process.env.OLDSWF_URL + "/go_full.swf",
@@ -60,8 +56,7 @@ module.exports = function (req, res, url) {
 			};
 			params = {
 				flashvars: {
-					presaveId: moviesave,
-					startersaveId: startersave,
+					presaveId: presave,
 					movieId: "",
 					loadas: 0,
 					asId: "",
