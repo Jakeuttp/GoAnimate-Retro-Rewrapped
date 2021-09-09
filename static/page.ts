@@ -33,7 +33,7 @@ module.exports = function (req, res, url) {
 
 	var attrs, params, title;
 	switch (url.pathname) {
-		case "/videomaker/full/": {
+		case "/studio": {
 			let presave =
 				query.movieId && query.movieId.startsWith("m")
 					? query.movieId
