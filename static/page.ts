@@ -52,7 +52,7 @@ module.exports = function (req, res, url) {
                                 allowFullScreen: "true",
                                 wmode: "window",
 
-                                hasVersion: "10.3"
+                                hasVersion: "10.3",
 			};
 			params = {
 				flashvars: {
@@ -106,7 +106,7 @@ module.exports = function (req, res, url) {
 					uplp: 0,
 					isWide: 1,
 				},
-				movie: process.env.SWF_URL + "/go_full.swf",
+				movie: process.env.SWF_URL + "/go_full.swf"
 			};
 			break;
 		}
