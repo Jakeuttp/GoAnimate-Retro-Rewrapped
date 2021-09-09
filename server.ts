@@ -9,7 +9,8 @@ const cht = require("./character/thmb.ts");
 const mvu = require("./movie/upload.ts");
 const asu = require("./asset/upload.ts");
 const stl = require("./static/load.ts");
-const stp = require("./static/page.ts");
+const lvp = require("./static/page.ts");
+const stp = require("./static/pagelvp.ts");
 const asl = require("./asset/load.ts");
 const asL = require("./asset/list.ts");
 const ast = require("./asset/thmb.ts");
@@ -24,7 +25,7 @@ const tsv = require("./tts/voices.ts");
 const tsl = require("./tts/load.ts");
 const url = require("url");
 
-const functions = [mvL, pmc, asl, chl, thl, thL, chs, cht, asL, tsl, chr, ast, mvm, mvl, mvs, mvt, tsv, asu, mvu, stp, stl];
+const functions = [mvL, pmc, asl, chl, thl, thL, chs, cht, asL, tsl, chr, ast, mvm, mvl, mvs, mvt, tsv, asu, mvu, stp, lvp, stl];
 
 module.exports = http
 	.createServer((req, res) => {
