@@ -49,7 +49,7 @@ module.exports = function (req, res, url) {
 					isEmbed: "0",
 					ctc: "go",
 					tlang: "en_US",
-					storePath: "http://lightspeed.domo.goanimate.com/store/50/<store>",
+					storePath: "https://josephcrosmanplays532.github.io/store/50/<store>",
 					clientThemePath: "https://josephcrosmanplays532.github.io/static/477/<client_theme>",
 					appCode: "go",
 					page: "",
