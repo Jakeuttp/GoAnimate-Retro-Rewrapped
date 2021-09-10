@@ -136,29 +136,9 @@ GA_googleFetchAds();
 					<a href="#" onclick="showLogin(250); return false;">
 						<div class="pull-left"><i class="top-nav-login-goog"></i><i class="top-nav-login-fb"></i></div>Login					</a>
 				</li>
-				<li class="divider"></li>
-				<li class="dropdown">
-					<a class="dropdown-toggle" href="https://josephcrosmanplays532.github.io/videos" data-toggle="dropdown">Explore <span class="caret"></span></a>
-					<ul class="dropdown-menu">
-						<li><a href="https://josephcrosmanplays532.github.io/videos">Videos</a></li>
-						<li><a href="https://josephcrosmanplays532.github.io/forums">Forums</a></li>
-						<li><a href="https://josephcrosmanplays532.github.io/video-maker-tips">Video Maker Tips</a></li>
-						<li><a href="https://josephcrosmanplays532.github.io/search">Search</a></li>
-					</ul>
-				</li>
-				<li class="dropdown">
-					<a class="dropdown-toggle" href="https://josephcrosmanplays532.github.io/plusfeatures/?hook=header_button.site" data-toggle="dropdown">Upgrade <span class="caret"></span></a>
-					<ul class="dropdown-menu">
-						<li><a href="https://josephcrosmanplays532.github.io/plusfeatures/?hook=header_button.site">GoPlus (For Personal Use)</a></li>
-						<li><a href="https://josephcrosmanplays532.github.io/business?hook=header_button.site">GoAnimate for Business</a></li>
-						<li><a href="https://goanimate4schools.herokuapp.com/">GoAnimate for Schools</a></li>
-					</ul>
-				</li>
-			</ul>
-
-			<li>
+			<div class="top-nav-vm-btn">
 				<a class="btn btn-orange pull-left" href="/videomaker">Make a Video</a>
-			</li>
+			</div>
 		</div>
 
 	</div>
