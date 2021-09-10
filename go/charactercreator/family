@@ -132,10 +132,6 @@ GA_googleFetchAds();
 					<a href="https://josephcrosmanplays532.github.io/plusfeatures?hook=header_button.site">Sign Up</a>
 				</li>
 				<li class="divider"></li>
-				<li>
-					<a href="#" onclick="showLogin(250); return false;">
-						<div class="pull-left"><i class="top-nav-login-goog"></i><i class="top-nav-login-fb"></i></div>Login					</a>
-				</li>
 			<div class="top-nav-vm-btn">
 				<a class="btn btn-orange pull-left" href="/videomaker">Make a Video</a>
 			</div>
