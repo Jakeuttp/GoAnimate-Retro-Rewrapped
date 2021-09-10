@@ -191,7 +191,7 @@ GA_googleFetchAds();
 	<div class="header-bg"></div>
 	<div class="header-inside">
 		<a class="site-logo" href="/" title="GoAnimate">
-			<img alt="Make a Video Online with GoAnimate.com" src="https://josephcrosmanplays532.github.io/static/477/go/img/header/make-video-goanimate.png"/>
+			<img alt="Make a Video Online with GoAnimate.com" src="/html/logo_b.png"/>
 		</a>
 
         <div id="headertopnavmenu" class="globalnav">
