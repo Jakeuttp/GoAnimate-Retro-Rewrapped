@@ -62,7 +62,7 @@ module.exports = function (req, res, url) {
 					originalId: "",
 					presaveId: presave,
 					apiserver: "/",
-					storePath: "http://lightspeed.domo.goanimate.com/store/50/<store>",
+					storePath: "https://josephcrosmanplays532.github.io/store/50/<store>",
 					clientThemePath: "https://josephcrosmanplays532.github.io/static/477/<client_theme>",
 					animationPath: "https://josephcrosmanplays532.github.io/animation/857/",
 					userId: "0DyHqK6Yj9dM",
