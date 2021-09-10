@@ -122,35 +122,35 @@ GA_googleFetchAds();
 <div class="site-header">
 	<div class="site-header-bg"></div>
 	<div class="site-header-inside">
-		<a class="site-logo" href="/html/" title="GoAnimate">
-			<img alt="Make a Video Online with GoAnimate.com" src="/html/logo_s.png"/>
+		<a class="site-logo" href="/" title="GoAnimate">
+			<img alt="Make a Video Online with GoAnimate.com" src="/html/logo_ga_s.png"/>
 		</a>
 
 		<div class="pull-right">
 			<ul id="top-nav" class="top-nav">
 				<li>
-					<a href="https://github.com/josephcrosmanplays532?tab=repositories&q=Vyond&hook=header_button.site">Vyond Lvm Clones</a>
+					<a href="https://github.com/josephcrosmanplays532/josephcrosmanplays532.github.io?hook=header_button.site">Joseph Animate Awesome Domain</a>
 				</li>
 				<li class="divider"></li>
 				<li>
 					<a href="#" onclick="document.getElementById('file').click(); return false;">
-						<div class="pull-left"><i class="top-nav-login-goog"></i><i class="top-nav-login-fb"></i></div>Upload Your Video					</a>
+						<div class="pull-left"><i class="top-nav-login-goog"></i><i class="top-nav-login-fb"></i></div>Upload a Video					</a>
 				</li>
 				<li class="divider"></li>
 				<li class="dropdown">
-					<a class="dropdown-toggle" href="https://josephcrosmanplays532.github.io" data-toggle="dropdown">Explore <span class="caret"></span></a>
+					<a class="dropdown-toggle" href="https://josephcrosmanplays532.github.io/videos" data-toggle="dropdown">Explore <span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li><a href="#video-extra">Videos</a></li>
+						<li><a href="https://josephcrosmanplays532.github.io/videos">Videos</a></li>
 						<li><a href="https://josephcrosmanplays532.github.io/forums">Forums</a></li>
 						<li><a href="https://josephcrosmanplays532.github.io/video-maker-tips">Video Maker Tips</a></li>
 						<li><a href="https://josephcrosmanplays532.github.io/search">Search</a></li>
 					</ul>
 				</li>
 				<li class="dropdown">
-					<a class="dropdown-toggle" href="https://github.com/josephcrosmanplays532?hook=header_button.site" data-toggle="dropdown">Featured Lvm Clones <span class="caret"></span></a>
+					<a class="dropdown-toggle" href="https://web.archive.org/web/20130520090217/http://goanimate.com/plusfeatures/?hook=header_button.site" data-toggle="dropdown">Upgrade <span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li><a href="https://github.com/josephcrosmanplays532/PHPWrapper?hook=header_button.site">PHPWrapper (Written in PHP like the Old GoAnimate)</a></li>
-						<li><a href="https://github.com/josephcrosmanplays532/TypeScript-Wrapper?hook=header_button.site">TypeScript Wrapper (Written in TypeScript)</a></li>
+						<li><a href=https://github.com/josephcrosmanplays532/Vyond-2018?hook=header_button.site">Vyond 2018 (For Personal Use)</a></li>
+						<li><a href="hhttps://github.com/josephcrosmanplays532/Vyond-2019?hook=header_button.site">Vyond 2019</a></li>
 						<li><a href="https://goanimate4schools.herokuapp.com/">GoAnimate for Schools</a></li>
 					</ul>
 				</li>
@@ -163,7 +163,6 @@ GA_googleFetchAds();
 
 	</div>
 </div>
-
 
 
 <div class="container">
@@ -414,7 +413,7 @@ var IE_COMPAT = false;
 <div class="buttontitle">Close Window</div>
 </a>
 				&nbsp;
-				<a href="https://web.archive.org/web/20130520090217/https://goanimate.com/buybucks/" class="buttonbase buttonblue btnaddGB" style="margin:10px 0px;float:none;display:inline-block">
+				<a href="https://josephcrosmanplays532.github.io/buybucks/" class="buttonbase buttonblue btnaddGB" style="margin:10px 0px;float:none;display:inline-block">
 <div class="buttontitle">Yes</div>
 </a>
 			</div>
@@ -483,16 +482,16 @@ var IE_COMPAT = false;
 				</ul>
 			</div>
 			<div class="col">
-				<h5><span>GoAnimate Solutions</span></h5>
+				<h4><span>GoAnimate Solutions</span></h4>
 				<ul>
-					<li><a href="https://josephcrosmanplays532.github.io/Yugandar'sWorldAnimator 2008/websites/linkToLvmClonesDownload/balladavisiongamin.wixsite.com/my-site-2?hook=footer_button.site">Other LVM Clones</a></li>
+					<li><a href="https://github.com/josephcrosmanplays532/Vyond-2019?hook=footer_button.site">Vyond 2019</a></li>
 					<li><a href="https://goanimate4schools.herokuapp.com/" target="_blank">GoAnimate for Schools</a></li>
 					<li><a href="https://josephcrosmanplays532.github.io/affiliate" target="_blank">Affiliates Program</a></li>
 					<li>&nbsp;</li>
 				</ul>
 			</div>
-			<div class="col">
-				<h5><span>Usage Guidelines</span></h5>
+			<div class="col" style="border:none">
+				<h4><span>Usage Guidelines</span></h4>
 				<ul>
 					<li><a href="https://josephcrosmanplays532.github.io/termsofuse">Terms of Use for Everyone</a></li>
 					<li><a href="https://josephcrosmanplays532.github.io/business/termsofuse">Additional Terms for Businesses</a></li>
@@ -500,12 +499,12 @@ var IE_COMPAT = false;
 					<li><a href="https://josephcrosmanplays532.github.io/privacy">Privacy Policy</a></li>
 				</ul>
 			</div>
-			<div class="col" style="border-right: none;">
-				<h5>Getting Help</h5>
+			<div class="col last">
+				<h4>Getting Help</h4>
 				<ul>
 					<li><a href="https://josephcrosmanplays532.github.io/video-maker-tips">Video Maker Tips</a></li>
 					<li><a href="https://josephcrosmanplays532.github.io/video-maker-tips/how-to-make-a-video/">Help Videos</a></li>
-					<li><a href="https://josephcrosmanplays532.github.io/faq">FAQ</a></li>
+					<li><a href="https://josephcrosmanplays532.github.io/faq">FAQs</a></li>
 					<li><a href="https://josephcrosmanplays532.github.io/forums">Forums</a></li>
 				</ul>
 			</div>
@@ -522,7 +521,7 @@ var IE_COMPAT = false;
 <div id="studio_container" style="display: none;">
 	<div id="studio_holder"><!-- Full Screen Studio -->
 		<div style="top: 50%; position: relative;">
-			This content requires the Adobe Flash Player 10.0.12. <a href="https://web.archive.org/web/20130520090217/http://get.adobe.com/flashplayer/">Get Flash</a>
+			This content requires the Adobe Flash Player 10.0.12. <a href="https://josephcrosmanplays532.github.io/go/getflash">Get Flash</a>
 		</div>
 	</div>
 </div>
