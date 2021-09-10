@@ -49,6 +49,19 @@
 				"Content-Type": "text/html; charset=UTF-8"
 			}
 		},
+		"/go/([^?]+html).*": {
+			"contentReplace": true,
+			"regexLink": "/go/$1",
+			"headers": {
+				"Content-Type": "text/html; charset=UTF-8"
+			}
+		},
+		"/go/([^?]+).*": {
+			"regexLink": "/go/$1",
+			"headers": {
+				"Content-Type": "text/html; charset=UTF-8"
+			}
+		},
 		"/ajax/([^?]+).*": {
 			"regexLink": "/ajax/$1",
 			"headers": {
