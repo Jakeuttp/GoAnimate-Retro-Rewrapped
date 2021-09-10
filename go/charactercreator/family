@@ -25,15 +25,15 @@
 <link href="https://josephanimate2021.w3spaces.com/overlay.css" rel="stylesheet" type="text/css"/>
 <link href="https://josephcrosmanplays532.github.io/fonts/9/font2012.css" rel="stylesheet" type="text/css"/>
 <link href="https://josephanimate2021.w3spaces.com/buttons.css" rel="stylesheet" type="text/css"/>
-<link href="https://josephanimate2021.w3spaces.com/cc.css" rel="stylesheet" type="text/css"/>
-<link href="https://josephanimate2021.w3spaces.com/ccbrowser.css" rel="stylesheet" type="text/css"/>
+<link href="https://josephcrosmanplays532.github.io/static/477/go/css/cc.css" rel="stylesheet" type="text/css"/>
+<link href="https://josephcrosmanplays532.github.io/static/477/go/css/ccbrowser.css" rel="stylesheet" type="text/css"/>
 <!--[if lte IE 6]><link href="/static/go/css/ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
 <!--[if lte IE 7]><style type="text/css">div.header {z-index: 10;}</style><![endif]-->
 
 <script type="text/javascript">
 var srv_tz_os = -4, view_name = "go", user_cookie_name = "u_info";
 </script>
-<script src="https://josephanimate2021.w3spaces.com/prototype.js"></script>
+<script src="https://josephcrosmanplays532.github.io/static/477/go/js/prototype.js"></script>
 <script src="https://josephanimate2021.w3spaces.com/jquery-1.8.3.min.js"></script>
 <script>jQuery.noConflict();</script>
 <script src="https://web.archive.org/web/20130520090217js_/http://www.google.com/jsapi"></script>
