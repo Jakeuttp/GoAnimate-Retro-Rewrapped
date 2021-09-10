@@ -196,8 +196,8 @@ if (self !== top) {
             <h2>Preview Video</h2>
             <div id="playerdiv"></div>
             <div class="buttons clearfix">
-                <button class="preview-button save" onclick="switchBackToStudio();">Back to editing</button>
-                <button class="preview-button save" onclick="publishStudio();">Save Now</button>            </div>
+                <button class="preview-button save" onclick="switchBackToStudio();">< Back to editing</button>
+                <button class="preview-button save" onclick="publishStudio();">Save Now ></button>            </div>
 
             <a class="close_btn" href="#" onclick="switchBackToStudio(); return false;">×</a>
         </div>
