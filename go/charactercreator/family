@@ -293,7 +293,7 @@ var IE_COMPAT = false;
 	function createNewChar(themeId) {
 		if (typeof pageTracker != 'undefined' && pageTracker)
 			pageTracker._trackPageview("/pageTracker/ccbrowser/close");
-		window.location = '/character_creator/' + themeId + '/new_char';
+		window.location = '/go/charactercreator/new_char/?themeId=' + themeId + '';
 	}
 
 	function showOG() {
