@@ -330,7 +330,7 @@ jQuery('#char_creator_client').flash({
 
 	hasVersion: "10.0.12",
 
-	flashvars: {"apiserver":"https:\/\/web.archive.org\/web\/20130427215414\/http:\/\/goanimate.com\/","m_mode":"normal","isLogin":"N","isEmbed":"0","ctc":"go","tlang":"en_US","storePath":"https:\/\/web.archive.org\/web\/20130427215414\/http:\/\/lightspeed.goanimate.com\/store\/153\/<store>","clientThemePath":"https:\/\/web.archive.org\/web\/20130427215414\/http:\/\/lightspeed.goanimate.com\/static\/410\/<client_theme>","appCode":"go","page":"","siteId":"go","userId":"","themeId":"family","ut":"10"}});
+	flashvars: ${JSON.stringify(params.flashvars)}});
 </script>
 </div>
 	</div>
