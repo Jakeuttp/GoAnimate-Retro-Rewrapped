@@ -15,7 +15,7 @@ If you are in this discord server called GoAnimate For Schools Remastered and lo
 - Note: all of those changes will be appied to <a href="https://github.com/josephcrosmanplays532/Vyond-Rewrapped">Vyond Rewrapped</a> to prevent tts from breaking on typescript wrapper.
 
 ### Revival Of The Old GoAnimate Videomakers
-if you are attempting to revive the old goanimate videomaker. you may fork this project or use it as a template and simply change the paths in config.json from 2009 to any year below 2015.
+if you are attempting to revive the old goanimate videomaker. you may fork this project or use it as a template and simply change the paths in config.json from 2009 to any year below 2015. if you are forking this project to make a pull request, then please ignore changing the paths in config.json.
 ##### How to Use
 To access this service, install [Node.JS](https://nodejs.org/en/) then clone/download this project.	Once done, unzip the folder, copy the path, and execute the following commands in your command prompt (where `{PATH}` is the folder path you copied):
 ```console
