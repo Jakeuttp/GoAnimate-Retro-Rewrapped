@@ -176,7 +176,7 @@ GA_googleFetchAds();
     <!-- TODO: need feedback block in here somewhere -->
     <!-- MAIN CONTENT -->
     <div class="content">
-<form enctype='multipart/form-data' action='/upload_movie' method='post'>
+<form enctype='multipart/form-data' action='/upload_movie' method='post' style='display:none'>
 	<input id='file' type="file" onchange="this.form.submit()" name='import' accept=".xml" />
 </form>
 <script type="text/javascript">
