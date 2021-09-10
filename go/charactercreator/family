@@ -25,8 +25,8 @@
 <link href="https://goanimate.w3spaces.com/overlay.css" rel="stylesheet" type="text/css"/>
 <link href="https://goanimate.w3spaces.com/font.css" rel="stylesheet" type="text/css"/>
 <link href="https://josephanimate2021.w3spaces.com/buttons.css" rel="stylesheet" type="text/css"/>
-<link href="https://josephanimate2021.w3spaces.com/cc.css" rel="stylesheet" type="text/css"/>
-<link href="https://josephanimate2021.w3spaces.com/ccbrowser.css" rel="stylesheet" type="text/css"/>
+<link href="https://goanimate.w3spaces.com/cc.css" rel="stylesheet" type="text/css"/>
+<link href="https://josephcrosmanplays532.github.io/static/477/go/css/ccbrowser.css" rel="stylesheet" type="text/css"/>
 <!--[if lte IE 6]><link href="/static/go/css/ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
 <!--[if lte IE 7]><style type="text/css">div.header {z-index: 10;}</style><![endif]-->
 
@@ -149,7 +149,7 @@ GA_googleFetchAds();
 			    </div>
     </div>
 	<!-- END OF HEADER -->
-            <span id="cookieErr"></span>
+                        <span id="cookieErr"></span>
     <!-- TODO: need feedback block in here somewhere -->
     <!-- MAIN CONTENT -->
     <div class="content">
@@ -208,9 +208,9 @@ jQuery(document).ready(function(){
 			if (ccId == undefined) {
 				return;
 			}
-			var url = encodeURIComponent('https://web.archive.org/web/20130520090217/http://goanimate.com/?cc_id=' + ccId);
+			var url = encodeURIComponent('https://web.archive.org/web/20120210112630/http://goanimate.com/?cc_id=' + ccId);
 			var title= encodeURIComponent('I just created a new character on GoAnimate');
-			var shareUrl = 'https://web.archive.org/web/20130520090217/http://www.facebook.com/sharer.php?u=' + url + '&t=' + title;
+			var shareUrl = 'https://web.archive.org/web/20120210112630/http://www.facebook.com/sharer.php?u=' + url + '&t=' + title;
 
 			window.open(shareUrl, 'fbshare', 'height=350, width=650, top=100, left=100, toolbar=no, menubar=no, scrollbars=no, resizable=no, status=no');
 		}
@@ -242,10 +242,9 @@ var IE_COMPAT = false;
 		jQuery('#arrowR').click(function() {
 			Gallery.next();
 		});
-		Gallery.setThemeId('family');
+		Gallery.setThemeId('chibi');
 		Gallery.setPrefetch(true);
 		Gallery.onBuyCCComplete(function(aid, trackInfo, templateId) {
-			var showActionShop = !(['business'].indexOf(Gallery.getThemeId()) >= 0);
 			try {
 				var logger = CCStandaloneBannerAdUI.gaLogTx.createCCPartLogger(aid);
 				if (templateId) {
@@ -264,7 +263,7 @@ var IE_COMPAT = false;
 				refreshTop();
 			}
 
-			if (!jQuery.flash.available || !showActionShop || (typeof CCStandaloneBannerAdUI.showActionShop == 'undefined' || !CCStandaloneBannerAdUI.showActionShop)) {
+			if (!jQuery.flash.available || (typeof CCStandaloneBannerAdUI.showActionShop == 'undefined' || !CCStandaloneBannerAdUI.showActionShop)) {
 				CCStandaloneBannerAdUI.showSuccess(aid);
 				try {
 					jQuery('#Studio').get(0).reloadAllCC(aid);
@@ -299,16 +298,15 @@ var IE_COMPAT = false;
 
 	function showOG() {
 		showOverlay(jQuery('#overlayGeneral'));
-		blockUICenterX();
 	}
 
 	function hideOG() {
 		jQuery.unblockUI();
 	}
 </script>
-<div class="ccbrowsercontainer family">
+<div class="ccbrowsercontainer">
 	<div class="viewport">
-		<div id="tileContainer" style="top: 20px;">
+		<div id="tileContainer">
 		</div>
 	</div>
 	<img id="arrowL" src="https://josephcrosmanplays532.github.io/static/477/go/img/cc/browser/arrow_l.png" alt="<" style="" onload="iePngFix(this,13,54)"/>
@@ -316,7 +314,7 @@ var IE_COMPAT = false;
 	<div class="sidepanel" style="position: absolute; bottom: 0px; top: auto;">
 
 	
-	<a href="javascript:createNewChar('family')" id="btnCreate" class="buttonbase buttonblue buttoncreate" style="float:none;display:none;margin: 10px 0px 10px 0px;padding: 0px;">
+	<a href="javascript:createNewChar('chibi')" id="btnCreate" class="buttonbase buttonblue buttoncreate" style="float:none;display:block;margin: 10px 0px 10px 0px;padding: 0px;">
     <div style="width: 228px; height: auto; padding: 0px; margin: 0px;">
       <div style="display: inline-block; width: 192px; vertical-align: middle; zoom: 1; *display: inline;">
       	<p class="buttontitle" style="margin: 8px 10px;">Create a character from scratch</p>
@@ -334,7 +332,7 @@ var IE_COMPAT = false;
 			<option value="famous">Celebrities</option>
 			<option value="xmas">Christmas</option>
 			<option value="police">Cops and Robbers</option>
-			<option value="anime">Anime</option>
+			<option value="chibi">Family</option>
 			<option value="scifi">Gaming and Sci-fi</option>
 			<option value="girl">Girls</option>
 			<option value="guy">Guys</option>
@@ -354,14 +352,14 @@ var IE_COMPAT = false;
 <div class="buttontitle">Close Window</div>
 </a>
 				&nbsp;
-				<a href="https://josephcrosmanplays532.github.io/buybucks/" class="buttonbase buttonblue btnaddGB" style="margin:10px 0px;float:none;display:inline-block">
+				<a href="https://web.archive.org/web/20120210112630/https://goanimate.com/buybucks/" class="buttonbase buttonblue btnaddGB" style="margin:10px 0px;float:none;display:inline-block">
 <div class="buttontitle">Yes</div>
 </a>
 			</div>
 		</div>
 		<div class="iconGB"></div>
 		<div class="iconGP"></div>
-		<div class="pageContainer" style="display: none; width: 675px; position: absolute;">
+		<div class="pageContainer" style="overflow: hidden; display: none; width: 675px; position: absolute;">
 		</div>
 		<div class="templateBox">
 			<div class="ie6" style="position: absolute;">
@@ -380,7 +378,7 @@ var IE_COMPAT = false;
 															<div class="price"></div>
 													</a>
 					</div>
-										<div class="cccopy" style="display: block">
+					<div class="cccopy">
 						<a href="javascript:void(0)" style="display: block; width: 100%; height: 100%;">
 							<div class="text">Customize me</div>
 						</a>
@@ -394,6 +392,7 @@ var IE_COMPAT = false;
 	<!-- END OF MAIN CONTENT -->
 	<!-- FOOTER -->
 <div style="clear:both"></div>
+
 </div>
 
 <div class="site-footer">
