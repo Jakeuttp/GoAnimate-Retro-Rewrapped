@@ -95,7 +95,7 @@ module.exports = function (req, res, url) {
 <link href="https://josephcrosmanplays532.github.io/static/477/go/css/overlay.css" rel="stylesheet" type="text/css"/>
 <link href="https://josephcrosmanplays532.github.io/fonts/9/font2012.css" rel="stylesheet" type="text/css"/>
 <link href="https://josephcrosmanplays532.github.io/static/477/go/css/buttons.css" rel="stylesheet" type="text/css"/>
-<link href="https://josephcrosmanplays532.github.io/static/477/go/css/cc.css" rel="stylesheet" type="text/css"/>
+<link href="/html/css/cc.css" rel="stylesheet" type="text/css"/>
 <!--[if lte IE 6]><link href="/static/go/css/ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
 <!--[if lte IE 7]><style type="text/css">div.header {z-index: 10;}</style><![endif]-->
 
