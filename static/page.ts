@@ -238,7 +238,7 @@ if (self !== top) {
 
     var studio_data = {
         id: "Studio",
-        swf: "https://josephcrosmanplays532.github.io/GoAnimate-Retro-Assets/animation/857/go_full.swf",
+        swf: "https://josephcrosmanplays532.github.io/animation/857/go_full.swf",
         width: "100%",
         height: "100%",
 
