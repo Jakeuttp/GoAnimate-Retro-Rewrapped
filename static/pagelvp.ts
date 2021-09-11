@@ -500,29 +500,20 @@ jQuery('#playerdiv').flash({
 				<h2>Your Videos</h2>
 
 				<ul class="video-list">
-						<table>
-		<thead>
-			<tr>
-				<td></td>
-				<td>Video Title</td>
-				<td>Last Modified</td>
-				<td></td>
-			</tr>
-		</thead>
-		<tbody></tbody>
-		<tfoot>
-			<tr>
-				<td colspan="127"><a id="load_more" href="javascript:;">LOAD MORE...</a></td>
-			</tr>
-		</tfoot>
-	</table>
+						<div id="gridcontainer">
+		<center><div id="grid">
+		</div></center>
+		<a id="load_more" href="javascript:;">
+			LOAD MORE...
+		</a>
+	</div>
 				</ul>
 			</div>
 			
 			
 	<script>
 		var json;
-		var tbody = document.getElementsByTagName('tbody')[0];
+		var grid = document.getElementById('grid');
 		var loadMore = document.getElementById('load_more');
 		const listReq = new XMLHttpRequest();
 		listReq.open('GET', '/movieList');
@@ -539,8 +530,8 @@ jQuery('#playerdiv').flash({
 
 				const tbl = json[c];
 				const date = tbl.date.substr(0, 10) + ' ' + tbl.date.substr(11);
-				tbody.insertAdjacentHTML('beforeend',
-					'<tr><td><img src="/movie_thumbs/' + tbl.id + '.png"></td><td><div>' + tbl.title.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;") + '</div><div>' + tbl.durationString + '</div></div></td><td><span>' + date + '</span></td><td><a href="javascript:;" onclick="popup(\'' + tbl.id + '\')"></a><a href="/go_full?movieId=' + tbl.id + '"></a><a href="/movies/' + tbl.id + '.xml" download="' + tbl.title + '"></a></td></tr>');
+				grid.insertAdjacentHTML('beforeend',
+					'<div id="video"><div id="thumbnail"><a id="preview_thumb" href="javascript:;" onclick="popup(\'' + tbl.id + '\')"><img src="/movie_thumbs/' + tbl.id + '.png"></a><div id="overlay"><div id="duration">' + tbl.durationString + '</div></div></div><div id="title">' + tbl.title.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;") + '</div><div id="movieid">Movie ID: ' + tbl.id + '</div><div id="description"><span>' + tbl.desc + '</span></div><div id="date"><span>' + date + '</span></div><div id="buttons"><a href="javascript:;" onclick="popup(\'' + tbl.id + '\')"></a><a href="/go_full?movieId=' + tbl.id + '"></a><a href="/movies/' + tbl.id + '.xml" download="' + tbl.title + '"></a></div></div>');
 			}
 		}
 
@@ -552,7 +543,7 @@ jQuery('#playerdiv').flash({
 		}
 
 		function popup(id) {
-			window.open('/go/movie/?movieId=' + id, 'MsgWindow', 'width=1280,height=723,left=' + (screen.width / 2 - 640) + ',top=' + (screen.height / 2 - 360));
+			window.open('/player?movieId=' + id, 'MsgWindow', 'width=1280,height=723,left=' + (screen.width / 2 - 640) + ',top=' + (screen.height / 2 - 360));
 		}
 	</script>
 
