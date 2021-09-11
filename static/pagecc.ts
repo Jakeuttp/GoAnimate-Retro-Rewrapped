@@ -35,7 +35,7 @@ module.exports = function (req, res, url) {
 	switch (url.pathname) {
 		case "/go/charactercreator/new_char/": {
 			attrs = {
-				data: "https://josephcrosmanplays532.github.io/animation/808/cc.swf", // data: 'cc.swf',
+				data: process.env.SWF_URL + "/cc.swf", // data: 'cc.swf',
 				type: "application/x-shockwave-flash",
 				id: "char_creator",
 	                        height: "500",
@@ -49,8 +49,8 @@ module.exports = function (req, res, url) {
 					isEmbed: "0",
 					ctc: "go",
 					tlang: "en_US",
-					storePath: "https://josephcrosmanplays532.github.io/store/50/<store>",
-					clientThemePath: "https://josephcrosmanplays532.github.io/static/477/<client_theme>",
+                                        storePath: process.env.STORE_URL + "/<store>",
+					clientThemePath: process.env.CLIENT_URL + "/<client_theme>",
 					appCode: "go",
 					page: "",
 					siteId: "go",
@@ -59,7 +59,7 @@ module.exports = function (req, res, url) {
 					ut: "60",
 				},
 				allowScriptAccess: "always",
-				movie: "https://josephcrosmanplays532.github.io/animation/808/cc.swf", // 'http://localhost/cc.swf'
+				movie: process.env.SWF_URL + "/cc.swf", // 'http://localhost/cc.swf'
 			};
 			break;
 		}
