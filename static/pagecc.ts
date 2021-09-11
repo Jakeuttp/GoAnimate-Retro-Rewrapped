@@ -318,7 +318,7 @@ jQuery('.money').bind('mouseout', function(e) {
 <script type="text/javascript">
 jQuery('#char_creator_client').flash({
 	id: "char_creator",
-	swf: "https://josephcrosmanplays532.github.io/animation/808/cc.swf",
+	swf: "https://josephcrosmanplays532.github.io/GoAnimate-Retro-Assets/animation/808/cc.swf",
 	height: 500,
 	width: 954,
 
