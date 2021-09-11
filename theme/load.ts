@@ -12,7 +12,7 @@ const http = require("http");
 module.exports = function (req, res, url) {
 	if (req.method != "POST" || url.path != "/goapi/getTheme/") return;
 	loadPost(req, res).then(([data]) => {
-		var theme = data.tray;
+		var theme = data.themeId;
 		switch (theme) {
 			case "family":
 				theme = "custom";
