@@ -62,9 +62,9 @@ module.exports = function (req, res, url) {
 					originalId: "",
 					presaveId: presave,
 					apiserver: "/",
-					storePath: "https://josephcrosmanplays532.github.io/store/50/<store>",
-					clientThemePath: "https://josephcrosmanplays532.github.io/static/477/<client_theme>",
-					animationPath: "https://josephcrosmanplays532.github.io/animation/857/",
+					storePath: process.env.STORE_URL + "/<store>",
+					clientThemePath: process.env.CLIENT_URL + "/<client_theme>",
+					animationPath: process.env.SWF_URL + "/",
 					userId: "0DyHqK6Yj9dM",
 					username: "good bois",
 					uemail: "crazy suitcase",
@@ -73,7 +73,7 @@ module.exports = function (req, res, url) {
 					ve: false,
 					isEmbed: 0,
 					nextUrl: "/go/movie/?movieId=<movieId>",
-					bgload: "https://josephcrosmanplays532.github.io/animation/857/go_full.swf",
+					bgload: process.env.SWF_URL + "/go_full.swf",
 					lid: "13",
 					ctc: "go",
 					themeColor: "silver",
@@ -238,7 +238,7 @@ if (self !== top) {
 
     var studio_data = {
         id: "Studio",
-        swf: "https://josephcrosmanplays532.github.io/animation/857/go_full.swf",
+        swf: "https://josephcrosmanplays532.github.io/GoAnimate-Retro-Assets/animation/857/go_full.swf",
         width: "100%",
         height: "100%",
 
@@ -366,7 +366,7 @@ function proceedWithFullscreenStudio() {
             autostart: "1", appCode: "go", is_slideshow: "0", originalId: "0", is_emessage: "0", isEmbed: "0", refuser: "",
             utm_source: "", uid: "", isTemplate: "1", showButtons: "0", chain_mids: "", showshare: "0", averageRating: "",
                         s3base: "https://s3.amazonaws.com/fs.goanimate.com/",
-                        ratingCount: "", fb_app_url: "/", numContact: 0, isInitFromExternal: 1, storePath: "https://josephcrosmanplays532.github.io/store/50/<store>", clientThemePath: "https://josephcrosmanplays532.github.io/static/477/<client_theme>", animationPath: "https://josephcrosmanplays532.github.io/animation/18/",
+                        ratingCount: "", fb_app_url: "/", numContact: 0, isInitFromExternal: 1, storePath: "http://lightspeed.domo.goanimate.com/store/50/<store>", clientThemePath: "https://josephcrosmanplays532.github.io/static/477/<client_theme>", animationPath: "https://josephcrosmanplays532.github.io/animation/18/",
             startFrame: startFrame
         });
     }
