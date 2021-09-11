@@ -20,6 +20,12 @@
 			},
 			"content": "111"
 		},
+		"/crossdomain.xml": {
+			"headers": {
+				"Content-Type": "text/x-cross-domain-policy"
+			},
+			"content": "<cross-domain-policy><allow-access-from domain=\"*\"/><allow-access-from domain=\"*.amazonaws.com\"/><allow-access-from domain=\"*.goanimate.com\" secure=\"false\"/></cross-domain-policy>"
+		},
 		"/cc.swf": {},
 		"/go_full.swf": {},
 		"/favicon.ico": {},
@@ -28,11 +34,6 @@
 				"Content-Type": "image/png"
 			},
 			"content": ""
-		},
-		"crossdomain.xml(.*)": {
-			"headers": {
-				"Content-Type": "text/xml; charset=UTF-8"
-			}
 		},
 		"/html/([^?]+html).*": {
 			"contentReplace": true,
