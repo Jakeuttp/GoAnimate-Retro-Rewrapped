@@ -111,6 +111,55 @@ module.exports = function (req, res, url) {
 			break;
 		}  
 
+		case "/go_full": {
+			let presave =
+				query.movieId && query.movieId.startsWith("m")
+					? query.movieId
+					: `m-${fUtil[query.Autosave ? "getNextFileId" : "fillNextFileId"]("movie-", ".xml")}`;
+			title = "The Video Maker From GoAnimate - Make a Video For YouTube!";
+			attrs = {
+				data: process.env.SWF_URL + "/go_full.swf",
+				type: "application/x-shockwave-flash",
+				id: "Studio",
+                                swf: process.env.SWF_URL + "/go_full.swf",
+                                width: "100%",
+                                height: "100%",
+
+                                align: "middle",
+                                allowScriptAccess: "always",
+                                allowFullScreen: "true",
+                                wmode: "window",
+
+                                hasVersion: "10.3",
+			};
+			params = {
+				flashvars: {
+					apiserver: "/",
+					storePath: "http://lightspeed.domo.goanimate.com/store/50/<store>",
+					isEmbed: "1",
+					ctc: "go",
+					ut: "60",
+					bs: "default",
+					appCode: "go",
+					page: "",
+					siteId: "go",
+					lid: "13",
+					isLogin: "Y",
+					retut: "1",
+					clientThemePath: "https://josephcrosmanplays532.github.io/static/f0694094c5d27ed9/<client_theme>",
+					tray: "retro",
+					themeId: "business",
+					tlang: "en_US",
+					presaveId: presave,
+					goteam_draft_only: "1",
+					isWide: "1",
+					nextUrl: "/html/list.html",
+				},
+				movie: process.env.SWF_URL + "/go_full.swf",
+			};
+			break;
+		}  
+			
 		default:
 			return;
 	}
