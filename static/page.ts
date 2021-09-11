@@ -106,7 +106,7 @@ module.exports = function (req, res, url) {
 					uplp: 0,
 					isWide: 1,
 				},
-				allowScriptAccess: "always",
+				movie: process.env.SWF_URL + "/go_full.swf",
 			};
 			break;
 		}  
