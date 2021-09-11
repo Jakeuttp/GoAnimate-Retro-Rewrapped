@@ -10,7 +10,7 @@ const http = require("http");
  * @returns {boolean}
  */
 module.exports = function (req, res, url) {
-	if (req.method != "POST" || url.path != "/goapi/getTheme/") return;
+	if (req.method != "POST" || url.path != "/goapi/getTheme/" && url.path != "/goapi/clientbug/") return;
 	loadPost(req, res).then(([data]) => {
 		var theme = data.themeId;
 		switch (theme) {
