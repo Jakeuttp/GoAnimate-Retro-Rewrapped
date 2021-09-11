@@ -1,0 +1,5 @@
+<cross-domain-policy>
+<allow-access-from domain="*.amazonaws.com"/>
+<allow-access-from domain="*"/>
+<allow-access-from domain="*.goanimate.com" secure="false"/>
+</cross-domain-policy>
