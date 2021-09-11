@@ -35,7 +35,7 @@ module.exports = function (req, res, url) {
 	switch (url.pathname) {
 		case "/go/charactercreator/new_char/": {
 			attrs = {
-				data: "https://josephcrosmanplays532.github.io/GoAnimate-Retro-Assets/animation/808/cc.swf", // data: 'cc.swf',
+				data: "https://josephcrosmanplays532.github.io/animation/808/cc.swf", // data: 'cc.swf',
 				type: "application/x-shockwave-flash",
 				id: "char_creator",
 	                        height: "500",
@@ -59,7 +59,7 @@ module.exports = function (req, res, url) {
 					ut: "60",
 				},
 				allowScriptAccess: "always",
-				movie: "https://josephcrosmanplays532.github.io/GoAnimate-Retro-Assets/animation/808/cc.swf", // 'http://localhost/cc.swf'
+				movie: "https://josephcrosmanplays532.github.io/animation/808/cc.swf", // 'http://localhost/cc.swf'
 			};
 			break;
 		}
@@ -318,7 +318,7 @@ jQuery('.money').bind('mouseout', function(e) {
 <script type="text/javascript">
 jQuery('#char_creator_client').flash({
 	id: "char_creator",
-	swf: "https://josephcrosmanplays532.github.io/GoAnimate-Retro-Assets/animation/808/cc.swf",
+	swf: "https://josephcrosmanplays532.github.io/animation/808/cc.swf",
 	height: 500,
 	width: 954,
 
