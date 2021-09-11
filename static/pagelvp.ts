@@ -36,11 +36,11 @@ module.exports = function (req, res, url) {
 		case "/go/movie/": {
 			title = "Player";
 			attrs = {
-				data: "https://josephcrosmanplays532.github.io/animation/808/player.swf",
+				data: "https://josephcrosmanplays532.github.io/GoAnimate-Retro-Assets/animation/808/player.swf",
 				type: "application/x-shockwave-flash",
 				
 				id: "Player",
-	                        swf: "https://josephcrosmanplays532.github.io/animation/808/player.swf",
+	                        swf: "https://josephcrosmanplays532.github.io/GoAnimate-Retro-Assets/animation/808/player.swf",
 	                        height: "379",
 	                        width: "620",
 	                        bgcolor: "#000000",
@@ -80,7 +80,7 @@ module.exports = function (req, res, url) {
 					is_emessage: "0",
 					storePath: process.env.STORE_URL + "/<store>",
 					clientThemePath: process.env.CLIENT_URL + "/<client_theme>",
-					animationPath: "https://josephcrosmanplays532.github.io/animation/808/",
+					animationPath: "https://josephcrosmanplays532.github.io/GoAnimate-Retro-Assets/animation/808/",
 					isEmbed: "0",
 					refuser: null,
 					utm_source: null,
@@ -98,7 +98,7 @@ module.exports = function (req, res, url) {
 					s3base: "https://josephcrosmanplays532.github.io/s3base/",
 					showshare: false,
 				},
-				movie: "https://josephcrosmanplays532.github.io/animation/808/player.swf",
+				movie: "https://josephcrosmanplays532.github.io/GoAnimate-Retro-Assets/animation/808/player.swf",
 			};
 			break;
 		}
@@ -371,7 +371,7 @@ jQuery('#bridgediv').flash({
 <script type="text/javascript">
 jQuery('#playerdiv').flash({
 	id: "Player",
-	swf: "https://josephcrosmanplays532.github.io/animation/18/player.swf",
+	swf: "https://josephcrosmanplays532.github.io/GoAnimate-Retro-Assets/animation/18/player.swf",
 	height: 379,
 	width: 620,
 	bgcolor: "#D7D7D7",
